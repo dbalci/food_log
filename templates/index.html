@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<title>Gurbuzluk</title>
+{% endblock %}
+
+{% block body %}
+
+<div class='content'>
+    <div id='first_week' class='week'>
+        <h1>1. Hafta</h1>
+        <div class='week_days'>
+            <div class='day'>
+                <h2>1. gun</h2>
+                <form action="/" method='POST'>
+                    <label>Kilo: </label>
+                    <input type="float" name='weight' id='weight' class='weight'>
+                    <input type="submit" value='kg'>
+                </form>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+{% endblock %}
